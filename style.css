@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(65, 65, 65);
+    color: white;
+    font-family: Helvetica, sans-serif, Arial ;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    background-image: url("../images/code.jpg");
+    padding: 20px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    background-size: 2000px 500px;
+    background-repeat: no-repeat;
+}
+
+.newp a:link, .newp a:visited {
+    background-color: rgb(51, 51, 51);
+    color: lawngreen;
+    padding: 15px 25px;
+    text-decoration: none;
+    display: inline-block;
+  }
+.newp a:hover {
+    color:green;
+  }
+
+.thispage a:link, .thispage a:visited{
+    background-color: #000000;
+    color: lawngreen;
+    padding: 15px 25px;
+    text-decoration: none;
+    display: inline-block;
+}
+.thispage a:hover {
+    color:green;
+  }
+
+.features {
+    background: rgb(72, 72, 72);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .features figure {
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+  }
+  
+  .features figure img {
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+    width: 200px;
+    height: 200px;
+  }
+  
+@media screen and(max-width:715px){
+
+}
+div {
+    
+    margin: auto;
+    width: 50px;
+}
+.ptext {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.ptext p{
+  margin:5px;
+  background-color: rgb(34, 34, 34);
+  word-wrap: wrap;
+  overflow-wrap: break-word;
+  width: 600px;
+  height:300px;
+}
+.ptext div {
+
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  width: 600px;
+}
+.ptext div img{
+
+  width: 300px;
+}
+
+
+
+ul 
+{
+   margin: 0;
+   padding: 0;
+   list-style-type: none; 
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+footer{
+    background-color: black;
+    padding: 10px 20px;
+    display:flex;
+    vertical-align: center;
+}
+.foot {
+    height:170px;
+    width:300px;
+}
+header .logo a {
+    background-color: red;
+    background-image: url("../images/logo.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 300px;
+    height: 85px;
+    text-indent: -99999px;
+    position: relative;
+    top: -20px;  
+}
+
+
+

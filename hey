@@ -1,0 +1,19 @@
+.feature-box {
+    display: flex;
+}
+.feature-box div{
+    width: 100px;
+    margin: 1px;
+}
+.feature-box.sales div{
+    background: gray;
+}
+.feature-box.closeouts div{
+    background: rgb(150, 2, 2);
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
