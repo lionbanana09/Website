@@ -111,6 +111,12 @@ div {
     background-color: #1a1919;
     padding: 20px;
   }
+  .image-right figcaption {
+    width: 100%;
+    text-align: center;
+    background-color: #1a1919;
+    padding: 20px;
+  }
 
   .header-text{
     text-align: center;
@@ -125,6 +131,17 @@ div {
 
   .image-left {
     flex-direction: row-reverse;
+  }
+
+  .image-right {
+    flex-direction: row;
+  }
+  .image-right {
+    display: flex;
+  }
+  .image-right img {
+    background-color: rgb(102, 102, 102);
+    padding: 20px;
   }
 }
 
