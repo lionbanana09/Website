@@ -117,7 +117,13 @@ div {
     background-color: #1a1919;
     padding: 20px;
   }
-
+  .center{
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    word-wrap: wrap;
+    overflow-wrap:normal;
+  }
   .header-text{
     text-align: center;
     padding-left: 50px;
