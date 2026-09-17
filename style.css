@@ -120,6 +120,8 @@ div {
   .center{
     margin: auto;
     padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     text-align: center;
     word-wrap: wrap;
     overflow-wrap:normal;
