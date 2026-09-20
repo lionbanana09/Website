@@ -133,6 +133,7 @@ div {
   }
 
   .image-left img {
+    max-width: 40%;
     background-color: rgb(102, 102, 102);
     padding: 20px;
   }
@@ -148,6 +149,7 @@ div {
     display: flex;
   }
   .image-right img {
+    max-width: 40%;
     background-color: rgb(102, 102, 102);
     padding: 20px;
   }
